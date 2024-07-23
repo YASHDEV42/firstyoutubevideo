@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 5em;
+}
+p {
+  font-size: 1.5rem;
+}
+button {
+  background-color: #f1ec40;
+  border-radius: 5px;
+  padding: 10px 20px;
+  border: 2px solid #f1ec40;
+}
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: inherit;
+}
+.main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: row;
+}
+img {
+  width: 75px;
+}
+section {
+  height: 100vh;
+  width: 80vw;
+  margin: 0 auto;
+}
+.social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.cards .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: #222;
+  border-radius: 10px;
+  height: 400px;
+  width: 300px;
+  padding: 50px;
+  text-align: center;
+}
+.cards .card h3 {
+  font-size: 1.7rem;
+}
+.cards .card p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  left: 10vw;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+.nav-bar h3 {
+  font-size: 2.5rem;
+}
+.nav-bar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 1.5rem;
+}
+.nav-bar ul li {
+  list-style: none;
+}
